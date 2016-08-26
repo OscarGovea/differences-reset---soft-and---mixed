@@ -1,7 +1,7 @@
 #Comandos RESET
 
 Con el fin de entender el funcionamiento de los comandos RESET, se dara una pequeña introducción a las zonas de trabajo de Git.
-Cuando se modifica un archivo en su repositorio, el cambio al principio no esta preparado para hacer un *commit*. Con el fin de hacerlo (el *commit*, debe ponerla en escena, es decir, añadirlo al git índice usando *add*. Cuando realiza una confirmación (*commit*), los cambios que se cometen son los que se han añadido al índice.
+Cuando se modifica un archivo en su repositorio, el cambio al principio no esta preparado para hacer un *commit*. Con el fin de hacerlo (el *commit*), debe ponerla en escena, es decir, añadirlo al git índice usando *add*. Cuando realiza una confirmación (*commit*), los cambios que se cometen son los que se han añadido al índice.
 ![alt text](https://github.com/OscarGovea/differences-reset---soft-and---mixed/blob/master/WorkingArea.png "Working Area")
 
 ##git reset [*mode*] [*commit*]
@@ -18,3 +18,4 @@ Restablece el índice, pero no el árbol de trabajo (es decir, los archivos modi
 La diferencia entre --mixed y --soft es si el índice se modifica o no.
 
 ![alt text](https://github.com/OscarGovea/differences-reset---soft-and---mixed/blob/master/GitResetHard.png "¡Siempre hay mas opciones!")
+###¡Siempre hay mas opciones!

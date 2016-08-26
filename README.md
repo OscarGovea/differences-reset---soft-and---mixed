@@ -1,6 +1,6 @@
 #Comandos RESET
 
-#Con el fin de entender el funcionamiento de los comandos RESET, se dara una pequeña introducción a las zonas de trabajo de Git.
+Con el fin de entender el funcionamiento de los comandos RESET, se dara una pequeña introducción a las zonas de trabajo de Git.
 Cuando se modifica un archivo en su repositorio, el cambio al principio no esta preparado para hacer un <commit>. Con el fin de hacerlo (el <commit>, debe ponerla en escena, es decir, añadirlo al git índice usando <add>. Cuando realiza una confirmación (<commit>), los cambios que se cometen son los que se han añadido al índice.
 ![alt text](https://github.com/OscarGovea/differences-reset---soft-and---mixed/blob/master/WorkingArea.png "Working Area")
 
